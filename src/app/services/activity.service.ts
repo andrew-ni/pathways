@@ -20,7 +20,7 @@ export class ActivityService {
     for (let i = 0; i < allActivities.length; i++){
       totalDistance += allActivities[i].distance;
     }
-    return totalDistance + 20;
+    return totalDistance + 60;
   }
 
   getFirstDate(allActivities: IActivity[]) {
